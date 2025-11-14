@@ -1,3 +1,4 @@
+// Feature: Improved API structure for capstone project
 
 const express = require("express");
 const bodyParser = require("body-parser");
