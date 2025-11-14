@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Notes App</title>
+  <style>
+    body { font-family: Arial; max-width: 800px; margin: 20px auto; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+    button { padding: 10px 15px; margin-top: 10px; }
+    .note { border: 1px solid #ddd; padding: 12px; margin-top: 10px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Simple Notes App</h1>
+
+  <h3>Add Note</h3>
+  <input id="title" placeholder="Title" />
+  <textarea id="content" placeholder="Content"></textarea>
+  <button onclick="addNote()">Add</button>
+
+  <h3>All Notes</h3>
+  <div id="notes"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
